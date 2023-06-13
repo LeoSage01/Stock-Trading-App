@@ -1,12 +1,13 @@
-import { AutoComplete } from "../components/AutoComplete";
+import { AutoComplete } from "../components/AutoComplete"
 import { StockList } from "../components/StockList"
+// import trading from "../images/"
 
 export const StockOverviewPage = () => {
-    return (
-        <div>
-            Stock Overview Page
-            <AutoComplete />
-            <StockList />
-        </div>
-    );
+  return <div>
+    <div className="text-center">
+      {/* <img src={trading} /> */}
+    </div>
+    <AutoComplete />
+    <StockList />
+  </div>
 }
